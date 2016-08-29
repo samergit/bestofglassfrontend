@@ -1,0 +1,499 @@
+<html>
+<head>
+	<title></title>
+
+	<meta charset=UTF-8>
+	<meta http-equiv=X-UA-Compatible content="IE=edge"/>
+	<meta content="True" name="HandheldFriendly">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="../site.css"></head>
+
+<body>
+
+	<div id="logged-in-nav" class="mainnavwrap">
+		<nav>
+			<a class="logo-wrap svg" href="">
+				<object type="image/svg+xml" data="logo.svg" class="logo">
+					<img src="logo.png"></object>
+			</a>
+
+			<div class="searchnavwrap left">
+				<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">
+				<!-- <input class="searchbtn left" name="commit" type="submit" value="">
+				-->
+				<button class="left svg" type="submit">
+					<object type="image/svg+xml" data="icons/search_icon.svg" class="searchbtn">
+						<img class="searchbtnfix" src="icons/search_icon.png"></object>
+				</button>
+			</div>
+
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/activity_icon.svg" class="activityicon">
+					<img src="icons/activity_icon.png"></object>
+
+				<span class="notifycircle"></span> <em class="navtxt">Activity</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/notification_icon.svg" class="notificationicon">
+					<img src="icons/notification_icon.png"></object>
+				<span class="notifycircle"></span> <em class="navtxt">Notifications</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/message_icon.svg" class="messageicon">
+					<img src="icons/message_icon.png"></object>
+				<em class="navtxt">Messages</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/dashboard_icon.svg" class="dashboardicon">
+					<img src="icons/dashboard_icon.png"></object>
+				<em class="navtxt">Dashboard</em>
+			</a>
+
+			<div class="rightnavlink right">
+				<a  href="#" class="left whitebtn new-auction-nav-btn svg">
+					<span class="auctioniconwrap">
+						<object type="image/svg+xml" data="icons/nav_auction_icon.svg" class="navauctionicon">
+							<img src="icons/nav_auction_icon.png"></object>
+					</span>
+				</a>
+				<div class="toggle-dropdown left">
+					<img src="ava.png" class="ava ava34" width="34" height="34">
+					<object type="image/svg+xml" data="icons/menu_icon.svg" class="menuicon">
+						<img src="icons/menu_icon.png"></object>
+				</div>
+			</div>
+
+			<div class="drop-down-menu">
+
+				<ul>
+					<li>
+
+						<a href="#">
+							<div class="username">
+								<span>bestofglass</span>
+								<em>View Profile</em>
+							</div>
+
+						</a>
+
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+				</ul>
+
+			</div>
+
+		</nav>
+
+	</div>
+
+	<header id="logged-in-mobile-nav" class="mobilenavheader">
+		<a href="" class="menuiconwrap svg">
+			<object type="image/svg+xml" data="icons/menu_icon.svg" class="menuicon">
+				<img src="icons/menu_icon.png"></object>
+			<em class="mobile-menu-notification">3</em>
+		</a>
+		<ul>
+			<li>
+				<a class="logo-wrap svg" href="">
+					<object type="image/svg+xml" data="logo.svg" class="logo">
+						<img src="logo.png"></object>
+				</a>
+			</li>
+			<li>
+				<nav>
+					<div class="searchnavwrap left">
+						<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">
+						<button class="left svg" type="submit">
+							<object type="image/svg+xml" data="icons/search_icon.svg" class="searchbtn">
+								<img class="searchbtnfix" src="icons/search_icon.png"></object>
+						</button>
+					</div>
+				</nav>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/activity_icon.svg" class="activityicon">
+						<img src="icons/activity_icon.png"></object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/notification_icon.svg" class="notificationicon">
+						<img src="icons/notification_icon.png"></object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/message_icon.svg" class="messageicon">
+						<img src="icons/message_icon.png"></object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/dashboard_icon.svg" class="dashboardicon">
+						<img src="icons/dashboard_icon.png"></object>
+				</a>
+			</li>
+			<li class="mobile-search-icon">
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/mobile_search_icon.svg" class="mobilesearchicon">
+						<img src="icons/mobile_search_icon.png"></object>
+				</a>
+			</li>
+		</ul>
+	</header>
+
+	<div class="slide-out-mobile-nav">
+		<nav>
+			<ul>
+
+				<li class="mobile-nav-profile">
+					<a href="#">
+						<img src="ava.png" class="ava ava50" width="34" height="34">
+						<span class="username">bestofglass</span>
+					</a>
+				</li>
+
+				<li>
+					<input class="inputbox searchbox" id="search" name="search" placeholder="Search" type="text">
+					<object type="image/svg+xml" data="icons/search_icon.svg" class="searchbtn">
+						<img class="searchbtnfix" src="icons/search_icon.png"></object>
+				</li>
+
+				<li>
+					<a class="mainnavlink svg" href="">
+						<object type="image/svg+xml" data="icons/nav_auction_icon.svg" class="navauctionicon navauctioniconmobile">
+							<img src="icons/nav_auction_icon.png"></object>
+						<em class="navtxt">New auction</em>
+					</a>
+				</li>
+
+				<li>
+					<a class="mainnavlink svg" href="">
+						<object type="image/svg+xml" data="icons/bag_icon.svg" class="bagicon bagiconmobile">
+							<img src="icons/bag_icon.png"></object>
+						<em class="navtxt">Bag</em>
+						<em class="redtext">(3)</em>
+					</a>
+				</li>
+
+				<li>
+					<a class="mainnavlink subnavlink" href="">Link</a>
+				</li>
+
+				<li>
+					<a class="mainnavlink subnavlink" href="">Link</a>
+				</li>
+
+				<li>
+					<a class="mainnavlink subnavlink" href="">Link</a>
+				</li>
+
+			</ul>
+		</nav>
+
+	</div>
+
+	<div class="dashboardbg mainwrap">
+
+		<div class="dashboard-main-header">
+			<h1>Dashboard</h1>
+		</div>
+
+		<nav class="mobile-db-nav">
+
+			<div class="auctions-nav-toggle">
+
+				<em class="auctionicon"></em>
+				Auctions
+			</div>
+
+			<div class="account-nav-toggle  db-active-nav">
+
+				<em class="accounticon"></em>
+				Account
+			</div>
+
+			<div class="payment-nav-toggle">
+
+				<em class="paymenticon"></em>
+				Payment
+			</div>
+
+		</nav>
+
+		<nav class="dashboard-nav left">
+
+			<ul class="db-nav-section">
+
+				<li class="db-nav-section-auction">
+					<h3>
+						<em class="auctionicon"></em>
+						Auctions
+					</h3>
+
+					<ul>
+
+						<li>
+							<a class="db-active" href="#">Bids</a>
+						</li>
+
+						<li>
+							<a href="#">
+								Won
+								<em class="unpaid-notification">1</em>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">Watching</a>
+						</li>
+
+						<li>
+							<a href="#">Feedback</a>
+						</li>
+
+					</ul>
+
+				</li>
+
+				<li class="db-nav-section-account">
+					<h3>
+						<em class="accounticon"></em>
+						Account
+					</h3>
+
+					<ul>
+
+						<li>
+							<a href="#">Edit Profile</a>
+						</li>
+
+						<li>
+							<a href="#">Account Settings</a>
+						</li>
+
+					</ul>
+
+				</li>
+
+				<li class="db-nav-section-payment">
+					<h3>
+						<em class="paymenticon"></em>
+						Payment
+					</h3>
+
+					<ul>
+
+						<li>
+							<a href="#">Billing Info</a>
+						</li>
+
+						<li>
+							<a href="#">Purchase History</a>
+						</li>
+
+					</ul>
+
+				</li>
+
+			</ul>
+
+		</nav>
+
+		<div class="right dashboard-content-area checkoutwrap">
+
+			<div class="db-inner-wrap checkout-process">
+
+				<h2 class="db-content-header">Item number 39834</h2>
+
+
+				<h3 class="has-not-been-paid-msg">This item has not been paid for. Do NOT ship it until it has been paid.</h3>
+
+				<div class="mainbg cart-list">
+
+					<div class="auctiontopwrap left">
+
+						<section class="auctionimage">
+
+							<img src="../aucimg.png" width="150" height="150">
+
+							<ul class="subaucinfo">
+
+								<li>
+									<em class="subdesc thumb">Item</em> <i class="thumbnailinfo">Blue Stardust Klein</i>
+
+								</li>
+
+								<li>
+									<em class="subdesc">Artist(s)</em> <i class="thumbnailinfo">Vibe Glass</i>
+
+								</li>
+
+							</ul>
+
+						</section>
+
+						<section class="bidarea" style="clear:left;">
+
+							<ul class="subaucinfo">
+
+								<li>
+
+									<em class="subdesc">End Date</em>
+									<i>04/20/2016</i>
+
+								</li>
+
+								<li>
+
+									<em class="subdesc">Item Total</em>
+									<i>$850</i>
+
+								</li>
+
+								<li>
+
+									<em class="subdesc">Shipping</em>
+									<i>$15</i>
+
+								</li>
+
+								<li>
+
+									<em class="subdesc">Sales Tax (7.5%)</em>
+									<i>-$63.75</i>
+									<!--
+										Only show negative for artists and subtract this from the total including the 20% cut.
+									-->
+								</li>
+
+								<li>
+
+									<em class="subdesc">Artists only (20%)</em>
+									<i>-$63.75</i>
+
+								</li>
+
+								<li class="totalprice">
+
+									<em class="subdesc">Total</em> <b>$928.75</b>
+
+								</li>
+
+							</ul>
+
+						</section>
+
+					</div>
+
+					<div class="right remove-border checkout-shipping-address">
+
+						<section class="newaucsections settings-content remove-border">
+
+							<ul class="view-details-address">
+								<li>
+									<h3>How to pay</h3>					
+								</li>
+								<li>
+									<p>
+										To complete payment for the amount due, please go to a Wells Fargo branch and make a cash deposit into the following account:
+									</p>
+								</li>
+								<li>
+									Bank: <b>Wells Fargo</b>			
+								</li>
+								<li>
+									Name: <b>Best of Glass</b>
+								</li>
+								<li>
+									Account Number: <b>989898989</b>
+								</li>
+								<li>
+									Routing Number: <b>989898989</b>
+								</li>
+
+							</ul>
+
+							<ul class="view-details-address">
+								<li>
+									<h3>Winner:</h3>					
+								</li>
+								<li>
+									<a href="#">bestofglass</a>
+								</li>
+								<li>
+									<h3>Shipping Address:</h3>					
+								</li>
+								<li>
+									Steve Jobs
+								</li>
+								<li>
+									1 Infinite Loop
+								</li>
+								<li>
+									Apt 3
+								</li>
+								<li>
+									Cupertino, California 93592
+								</li>
+								<li>
+									United States
+								</li>
+								<li>
+									(415) 555-5555
+								</li>
+
+							</ul>
+
+							<div class="add-tracking-info">
+								<div class="divideinput">
+
+									<label class="label-style" for="tracking">Tracking Number</label>
+
+									<input class="aucinput" name="tracking" id="tracking">								
+									<p class="tip required-error redtext">Required</p>
+
+								</div>
+
+								<div class="divideinput">
+
+									<label class="label-style" for="courier">Shipping Courier</label>
+
+									<select class="select-style address-select-style" name="courier" id="courier">
+										<option>USPS</option>
+										<option>UPS</option>
+										<option>FedEx</option>
+										<option>DHL</option>
+									</select>
+
+									<p class="tip required-error redtext">Required</p>
+
+								</div>
+								<div class="divideinput">
+									<input class="btn" name="password" id="password" value="Save">
+								</div>
+
+							</div>
+
+						</section>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>

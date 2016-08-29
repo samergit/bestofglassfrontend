@@ -1,0 +1,614 @@
+<html>
+<head>
+	<title></title>
+
+	<meta charset=UTF-8>
+	<meta http-equiv=X-UA-Compatible content="IE=edge"/>
+	<meta content="True" name="HandheldFriendly">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="../site.css">
+
+</head>
+
+<body class="billinginfo-db-page">
+
+<div id="logged-in-nav" class="mainnavwrap">
+		<nav>
+				<a class="logo-wrap svg" href="">
+					<object type="image/svg+xml" data="logo.svg" class="logo">
+  						<img src="logo.png">
+					</object>
+				</a>
+
+			<div class="searchnavwrap left">
+				<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">	
+				<!-- <input class="searchbtn left" name="commit" type="submit" value=""> -->
+				<button class="left svg" type="submit">
+					<object type="image/svg+xml" data="icons/search_icon.svg" class="searchbtn">
+						<img class="searchbtnfix" src="icons/search_icon.png">
+					</object>
+				</button>
+			</div>
+
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/activity_icon.svg" class="activityicon">
+  					<img src="icons/activity_icon.png">
+				</object>
+
+				<span class="notifycircle"></span>
+				<em class="navtxt">Activity</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/notification_icon.svg" class="notificationicon">
+  					<img src="icons/notification_icon.png">
+				</object>
+				<span class="notifycircle"></span>
+				<em class="navtxt">Notifications</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/message_icon.svg" class="messageicon">
+  					<img src="icons/message_icon.png">
+				</object>
+				<em class="navtxt">Messages</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/dashboard_icon.svg" class="dashboardicon">
+  					<img src="icons/dashboard_icon.png">
+				</object>
+				<em class="navtxt">Dashboard</em>
+			</a>
+
+			<div class="rightnavlink right">
+				<a  href="#" class="left whitebtn new-auction-nav-btn svg">
+					<span class="auctioniconwrap">
+					<object type="image/svg+xml" data="icons/nav_auction_icon.svg" class="navauctionicon">
+  						<img src="icons/nav_auction_icon.png">
+					</object>
+					</span>
+				</a>
+				<div class="toggle-dropdown left">
+					<img src="ava.png" class="ava ava34" width="34" height="34">	
+					<object type="image/svg+xml" data="icons/menu_icon.svg" class="menuicon">
+  						<img src="icons/menu_icon.png">
+					</object>
+				</div>
+			</div>
+
+			<div class="drop-down-menu">
+
+				<ul>
+					<li>
+
+						<a href="#">
+							<div class="username">
+								<span>bestofglass</span> <em>View Profile</em>
+							</div>
+
+						</a>
+
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+				</ul>
+
+			</div>
+
+		</nav>
+
+	</div> 
+
+<header id="logged-in-mobile-nav" class="mobilenavheader">	
+	<a href="" class="menuiconwrap svg">
+		<object type="image/svg+xml" data="icons/menu_icon.svg" class="menuicon">
+  			<img src="icons/menu_icon.png">
+		</object>
+		<em class="mobile-menu-notification">3</em>
+	</a>
+		<ul>
+			<li>
+				<a class="logo-wrap svg" href="">
+					<object type="image/svg+xml" data="logo.svg" class="logo">
+  						<img src="logo.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<nav>
+					<div class="searchnavwrap left">
+						<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">	
+						<button class="left svg" type="submit">
+							<object type="image/svg+xml" data="icons/search_icon.svg" class="searchbtn">
+								<img class="searchbtnfix" src="icons/search_icon.png">
+							</object>
+						</button>
+					</div>
+				</nav>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/activity_icon.svg" class="activityicon">
+  						<img src="icons/activity_icon.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/notification_icon.svg" class="notificationicon">
+  						<img src="icons/notification_icon.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/message_icon.svg" class="messageicon">
+  						<img src="icons/message_icon.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/dashboard_icon.svg" class="dashboardicon">
+  						<img src="icons/dashboard_icon.png">
+					</object>
+				</a>
+			</li>
+			<li class="mobile-search-icon">
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/mobile_search_icon.svg" class="mobilesearchicon">
+  						<img src="icons/mobile_search_icon.png">
+					</object>
+				</a>
+			</li>
+		</ul>
+	</header>
+
+	<div class="slide-out-mobile-nav">
+		<nav>
+			<ul>
+
+				<li class="mobile-nav-profile">
+					<a href="#"><img src="ava.png" class="ava ava50" width="34" height="34">
+					<span class="username">bestofglass</span>
+				</a>
+				</li>
+
+				<li>
+					<input class="inputbox searchbox" id="search" name="search" placeholder="Search" type="text">
+					<object type="image/svg+xml" data="icons/search_icon.svg" class="searchbtn">
+						<img class="searchbtnfix" src="icons/search_icon.png">
+					</object>
+				</li>
+
+
+
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/nav_auction_icon.svg" class="navauctionicon navauctioniconmobile">
+  						<img src="icons/nav_auction_icon.png">
+					</object>
+					<em class="navtxt">New auction</em>
+				</a>
+			</li>
+
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/bag_icon.svg" class="bagicon bagiconmobile">
+  						<img src="icons/bag_icon.png">
+					</object>
+					<em class="navtxt">Bag </em><em class="redtext">(3)</em>
+				</a>
+			</li>
+
+			<li>
+				<a class="mainnavlink subnavlink" href="">Link</a>
+			</li>
+
+			<li>
+				<a class="mainnavlink subnavlink" href="">Link</a>
+			</li>
+
+			<li>
+				<a class="mainnavlink subnavlink" href="">Link</a>
+			</li>
+
+			</ul>
+		</nav>
+
+	</div>
+
+	<div class="dashboardbg mainwrap">
+
+		<div class="dashboard-main-header">
+			<h1>Dashboard</h1>
+		</div>
+
+		<nav class="mobile-db-nav">
+
+			<div class="auctions-nav-toggle">
+
+				<object type="image/svg+xml" data="../icons/auction_icon.svg" class="auctionicon">
+					<img src="../icons/auction_icon.png">
+				</object>
+				Auctions
+
+			</div>
+
+			<div class="account-nav-toggle  db-active-nav">
+
+				<object type="image/svg+xml" data="../icons/account_icon.svg" class="accounticon">
+					<img src="../icons/account_icon.png">
+				</object>
+				Account
+
+			</div>
+
+			<div class="payment-nav-toggle">
+
+				<object type="image/svg+xml" data="../icons/payment_icon.svg" class="paymenticon">
+					<img src="../icons/payment_icon.png">
+				</object>
+				Payment
+
+			</div>
+
+		</nav>
+
+		<nav class="dashboard-nav left">
+
+			<ul class="db-nav-section">
+
+				<li class="db-nav-section-auction">
+					<h3>
+						<object type="image/svg+xml" data="../icons/auction_icon.svg" class="auctionicon">
+							<img src="../icons/auction_icon.png">
+						</object>
+						Auctions
+					</h3>
+
+					<ul>
+
+						<li>
+							<a class="bids-db-active" href="#">Bids</a>
+						</li>
+
+						<li>
+							<a class="won-db-active" href="#">Won <em class="unpaid-notification">1</em></a>
+						</li>
+
+						<li>
+							<a class="watching-db-active" href="#">Watching</a>
+						</li>
+
+						<li>
+							<a class="feedback-db-active" href="#">Feedback</a>
+						</li>
+
+					</ul>
+
+
+				</li>
+
+				<li class="db-nav-section-account">
+					<h3>
+						<object type="image/svg+xml" data="../icons/account_icon.svg" class="accounticon">
+							<img src="../icons/account_icon.png">
+						</object>
+						Account
+					</h3>
+
+					<ul>
+
+						<li>
+							<a class="editprofile-db-active" href="#">Edit Profile</a>
+						</li>
+
+						<li>
+							<a class="accountsettings-db-active" href="#">Account Settings</a>
+						</li>
+
+					</ul>
+
+
+				</li>
+
+				<li class="db-nav-section-payment">
+					<h3>
+						<object type="image/svg+xml" data="../icons/payment_icon.svg" class="paymenticon">
+							<img src="../icons/payment_icon.png">
+						</object>
+						Payment
+					</h3>
+
+					<ul>
+
+						<li>
+							<a class="billinginfo-db-active" href="#">Billing Info</a>
+						</li>
+
+						<li>
+							<a class="purchasehistory-db-active" href="#">Purchase History</a>
+						</li>
+
+					</ul>
+
+
+				</li>
+
+			</ul>
+
+
+
+		</nav>
+
+	
+		<div class="right dashboard-content-area">
+
+			<div class="db-inner-wrap">
+				<h2 class="db-content-header">
+					Billing Information
+				</h2>
+
+		<section class="newaucsections settings-content remove-border">
+
+			<h2>
+				Shipping Address
+			</h2>
+
+			<div class="relative">
+
+				<div class="divideinput input-50-left">
+
+					<label class="label-style" for="firstname">First Name</label>
+
+					<input class="aucinput" name="firstname" id="firstname" placeholder="John">
+					<p class="tip required-error redtext">Required</p>
+
+				</div>
+
+				<div class="divideinput input-50-right">
+
+					<label class="label-style" for="lastname">Last Name</label>
+
+					<input class="aucinput" name="lastname" id="lastname" placeholder="Smith">
+					<p class="tip required-error redtext">Required</p>
+					
+				</div>
+
+				<div class="divideinput">
+
+					<label class="label-style" for="addressone">Address Line 1</label>
+
+					<input class="aucinput" name="addressone" id="addressone">
+					<p class="tip required-error redtext">Required</p>
+					
+				</div>	
+
+				<div class="divideinput">
+
+					<label class="label-style" for="addresstwo">Address Line 2</label>
+
+					<input class="aucinput" name="addresstwo" id="addresstwo" placeholder="Apt, suit, etc. (optional) ">
+					<p class="tip required-error redtext">Required</p>
+					
+				</div>	
+
+				<div class="divideinput input-50-left">
+
+					<label class="label-style" for="city">City</label>
+
+					<input class="aucinput" name="city" id="city" placeholder="San Francisco">
+					<p class="tip required-error redtext">Required</p>
+
+				</div>
+
+				<div class="divideinput input-50-right">
+
+					<label class="label-style" for="province">Province</label>
+
+					<select class="select-style address-select-style" name="province" id="province">
+						<option>Rig</option>
+						<option>Pendant</option>
+						<option>Hand Pipe</option>
+						<option>Accessories</option>
+					</select>
+
+					<p class="tip required-error redtext">Required</p>
+					
+				</div>
+
+				<div class="divideinput input-50-left">
+
+					<label class="label-style" for="country">Country</label>
+
+					<select class="select-style address-select-style" name="country" id="country">
+						<option>Rig</option>
+						<option>Pendant</option>
+						<option>Hand Pipe</option>
+						<option>Accessories</option>
+					</select>
+
+					<p class="tip required-error redtext">Required</p>
+					
+				</div>
+
+
+				<div class="divideinput input-50-right">
+
+					<label class="label-style" for="zipcode">Postal/zip code</label>
+
+					<input class="aucinput" name="zipcode" id="zipcode">
+					<p class="tip required-error redtext">Required</p>
+
+				</div>
+
+				<div class="divideinput">
+
+					<label class="label-style" for="phone">Phone Number</label>
+
+					<input class="aucinput" name="phone" id="phone" placeholder="Optional">
+					<p class="tip required-error redtext">Required</p>
+					
+				</div>	
+
+			</div>
+
+
+		</section>
+
+		<section class="newaucsections settings-content remove-border address-check-box">
+
+			<input id="rememberMe" name="user[remember_me]" type="checkbox" value="1">
+
+			<label class="remember" for="rememberMe" id="rememberMe">Shipping address is the same as the billing address.</label>
+
+				<p class="tip">
+					<object type="image/svg+xml" data="../icons/help_icon.svg" class="helpicon">
+  						<img src="../icons/help_icon.png">
+					</object>
+					<b>Tip:</b> Username can be a max of bla bla.</p>
+
+		</section>
+
+		<section class="newaucsections settings-content remove-border billing-address-area">
+
+			<h2>
+				Billing Address
+			</h2>
+
+			<div class="relative">
+
+				<div class="divideinput input-50-left">
+
+					<label class="label-style" for="firstname">First Name</label>
+
+					<input class="aucinput" name="firstname" id="firstname" placeholder="John">
+					<p class="tip required-error redtext">Required</p>
+
+				</div>
+
+				<div class="divideinput input-50-right">
+
+					<label class="label-style" for="lastname">Last Name</label>
+
+					<input class="aucinput" name="lastname" id="lastname" placeholder="Smith">
+					<p class="tip required-error redtext">Required</p>
+					
+				</div>
+
+				<div class="divideinput">
+
+					<label class="label-style" for="addressone">Address Line 1</label>
+
+					<input class="aucinput" name="addressone" id="addressone">
+					<p class="tip required-error redtext">Required</p>
+					
+				</div>	
+
+				<div class="divideinput">
+
+					<label class="label-style" for="addresstwo">Address Line 2</label>
+
+					<input class="aucinput" name="addresstwo" id="addresstwo" placeholder="Apt, suit, etc. (optional) ">
+					<p class="tip required-error redtext">Required</p>
+					
+				</div>	
+
+				<div class="divideinput input-50-left">
+
+					<label class="label-style" for="city">City</label>
+
+					<input class="aucinput" name="city" id="city" placeholder="San Francisco">
+					<p class="tip required-error redtext">Required</p>
+
+				</div>
+
+				<div class="divideinput input-50-right">
+
+					<label class="label-style" for="province">Province</label>
+
+					<select class="select-style address-select-style" name="province" id="province">
+						<option>Rig</option>
+						<option>Pendant</option>
+						<option>Hand Pipe</option>
+						<option>Accessories</option>
+					</select>
+
+					<p class="tip required-error redtext">Required</p>
+					
+				</div>
+
+				<div class="divideinput input-50-left">
+
+					<label class="label-style" for="country">Country</label>
+
+					<select class="select-style address-select-style" name="country" id="country">
+						<option>Rig</option>
+						<option>Pendant</option>
+						<option>Hand Pipe</option>
+						<option>Accessories</option>
+					</select>
+
+					<p class="tip required-error redtext">Required</p>
+					
+				</div>
+
+
+				<div class="divideinput input-50-right">
+
+					<label class="label-style" for="zipcode">Postal/zip code</label>
+
+					<input class="aucinput" name="zipcode" id="zipcode">
+					<p class="tip required-error redtext">Required</p>
+
+				</div>
+
+				<div class="divideinput">
+
+					<label class="label-style" for="phone">Phone Number</label>
+
+					<input class="aucinput" name="phone" id="phone" placeholder="Optional">
+					<p class="tip required-error redtext">Required</p>
+					
+				</div>	
+
+			</div>
+
+
+		</section>
+
+		<section class="newaucsections settings-content remove-border">
+
+
+			<div class="divideinput">
+
+
+				<input class="btn greenbtn" name="password" id="password" value="Save changes">
+			</div>
+
+
+		</section>
+
+
+		
+
+
+
+			</div>
+
+		</div>
+
+
+
+
+	</div>
+
+</body>
+</html>

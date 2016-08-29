@@ -1,0 +1,165 @@
+<html>
+<head>
+	<title></title>
+
+	<meta charset=UTF-8>
+	<meta http-equiv=X-UA-Compatible content="IE=edge"/>
+	<meta content="True" name="HandheldFriendly">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="site.css">
+</head>
+<body class="non-nav">
+	<div id="logged-out-nav" class="mainnavwrap">
+		<nav>
+				<a class="logo-wrap svg" href="">
+					<object type="image/svg+xml" data="../logo.svg" class="logo">
+  						<img src="../logo.png">
+					</object>
+				</a>
+
+			<div class="searchnavwrap left">
+				<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">	
+				<!-- <input class="searchbtn left" name="commit" type="submit" value=""> -->
+				<button class="left svg" type="submit">
+					<object type="image/svg+xml" data="../icons/search_icon.svg" class="searchbtn">
+  						<img src="../icons/activity_icon.png">
+					</object>
+				</button>
+			</div>
+
+			<div class="nav-cta right">
+				<a href="#" class="btn">Join</a>
+				<a href="#" class="btn whitebtn">Sign in</a>
+			</div>
+
+		</nav>
+
+	</div>
+
+
+	<header id="logged-out-mobile-nav" class="mobilenavheader">
+
+			<a href="" class="menuiconwrap svg">
+				<object type="image/svg+xml" data="../icons/menu_icon.svg" class="menuicon">
+					<img src="../icons/menu_icon.png"></object>
+			</a>
+
+		<a class="logo-wrap svg" href="">
+			<object type="image/svg+xml" data="../logo.svg" class="logo">
+				<img src="../logo.png"></object>
+		</a>
+
+		<nav>
+			<div class="searchnavwrap left">
+				<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">	
+				<!-- <input class="searchbtn left" name="commit" type="submit" value="">	
+				-->
+				<button class="left svg" type="submit">
+					<object type="image/svg+xml" data="../icons/search_icon.svg" class="searchbtn">
+						<img class="searchbtnfix" src="../icons/search_icon.png">
+					</object>
+				</button>
+			</div>
+		</nav>
+			<div class="nav-cta right">
+				<a href="#" class="btn">Join</a>
+				<a href="#" class="btn whitebtn">Sign in</a>
+			</div>
+	</header>
+
+	<div class="mobilenavwrap">
+		<nav>
+			<ul>
+
+				<li class="mobile-nav-profile">
+					<a href="#"><img src="ava.png" class="ava ava50" width="34" height="34">
+					<span class="username">bestofglass</span>
+				</a>
+				</li>
+
+				<li>
+					<input class="inputbox searchbox" id="search" name="search" placeholder="Search" type="text">
+					<button class="left svg" type="submit">
+						<object type="image/svg+xml" data="../icons/searchs_icon.svg" class="searchbtn">
+  							<img src="../icons/search_icon.png">
+						</object>
+					</button>
+				</li>
+
+			<li>
+				<a class="mainnavlink" href=""><span class="activityicon"></span><span class="notifycircle"></span>Activity</a>
+			</li>
+			<li>
+				<a class="mainnavlink" href=""><span class="notificationicon"></span><span class="notifycircle"></span>Notifications</a>
+			</li>
+			<li>
+				<a class="mainnavlink" href=""><span class="messageicon"></span>Messages</a>
+			</li>
+			<li>
+				<a class="mainnavlink" href=""><span class="dashboardicon"></span>Dashboard</a>
+			</li>
+
+			<li>
+				<a class="mainnavlink subnavlink" href="">Link</a>
+			</li>
+
+			<li>
+				<a class="mainnavlink subnavlink" href="">Link</a>
+			</li>
+
+			<li>
+				<a class="mainnavlink subnavlink" href="">Link</a>
+			</li>
+
+			</ul>
+		</nav>
+
+	</div>
+
+
+	<div class="signupwrap mainbg">
+
+		<div class="logolrg" style="width:55px;height:80px;">
+
+			<object type="image/svg+xml" data="logo.svg" class="logo logolrg">
+				<img src="logo.png">
+			</object>
+
+		</div>
+
+		<h1>Sign up for free and experience <b>Best of Glass</b> today</h1>
+
+		<form accept-charset="UTF-8" action="/users" class="new_user" data-remote="true" id="new_user" method="post">
+
+			<input class="signupinput" placeholder="First Name" class="inputbox"  size="30" />	
+			<input class="signupinput" placeholder="Last Name" class="inputbox"  size="30" />	
+			<input class="signupinput" placeholder="Email" class="inputbox"  size="30" />
+			<input class="signupinput" placeholder="Username" class="inputbox"  size="30" />	
+			<input class="signupinput" placeholder="Password" class="inputbox"  size="30" />	
+			<input class="signupinput" placeholder="Instagram Handle" class="inputbox"  size="30" />
+
+			<div class="birthdaysignup">
+				<select class="signupmonth select-style">
+					<option value="">Month</option>
+				</select>
+				<select class="signupday select-style">
+					<option value="">Day</option>
+				</select>
+				<input class="signupyear" placeholder="Year" maxlength="4">
+			</div>
+
+<!-- 			<p>
+				By joining you agree to the
+				<a href="/tos">Terms of Service</a>
+				.
+			</p> -->
+			<input class="btn redbtn" name="commit" type="submit" value="Create Account" />	
+
+		</form>
+
+	</div>
+
+
+</body>
+</html>

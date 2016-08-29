@@ -1,0 +1,558 @@
+<html>
+<head>
+	<title></title>
+
+	<meta charset=UTF-8>
+	<meta http-equiv=X-UA-Compatible content="IE=edge"/>
+	<meta content="True" name="HandheldFriendly">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="site.css">
+	<link rel="stylesheet" type="text/css" href="dropzone.css">
+
+</head>
+<body class="hp-bgfix">
+
+<div id="logged-in-nav" class="mainnavwrap">
+		<nav>
+				<a class="logo-wrap svg" href="">
+					<object type="image/svg+xml" data="../logo.svg" class="logo">
+  						<img src="../logo.png">
+					</object>
+				</a>
+
+			<div class="searchnavwrap left">
+				<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">	
+				<!-- <input class="searchbtn left" name="commit" type="submit" value=""> -->
+				<button class="left svg" type="submit">
+					<object type="image/svg+xml" data="../icons/search_icon.svg" class="searchbtn">
+						<img class="searchbtnfix" src="../icons/search_icon.png">
+					</object>
+				</button>
+			</div>
+
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="../icons/activity_icon.svg" class="activityicon">
+  					<img src="../icons/activity_icon.png">
+				</object>
+
+				<span class="notifycircle"></span>
+				<em class="navtxt">Activity</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="../icons/notification_icon.svg" class="notificationicon">
+  					<img src="../icons/notification_icon.png">
+				</object>
+				<span class="notifycircle"></span>
+				<em class="navtxt">Notifications</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="../icons/message_icon.svg" class="messageicon">
+  					<img src="../icons/message_icon.png">
+				</object>
+				<em class="navtxt">Messages</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="../icons/dashboard_icon.svg" class="dashboardicon">
+  					<img src="../icons/dashboard_icon.png">
+				</object>
+				<em class="navtxt">Dashboard</em>
+			</a>
+
+			<div class="rightnavlink right">
+				<a  href="#" class="left whitebtn new-auction-nav-btn svg">
+					<span class="auctioniconwrap">
+					<object type="image/svg+xml" data="../icons/nav_auction_icon.svg" class="navauctionicon">
+  						<img src="../icons/nav_auction_icon.png">
+					</object>
+					</span>
+				</a>
+				<div class="toggle-dropdown left">
+					<img src="../ava.png" class="ava ava34" width="34" height="34">	
+					<object type="image/svg+xml" data="../icons/menu_icon.svg" class="menuicon">
+  						<img src="../icons/menu_icon.png">
+					</object>
+				</div>
+			</div>
+
+			<div class="drop-down-menu">
+
+				<ul>
+					<li>
+
+						<a href="#">
+							<div class="username">
+								<span>bestofglass</span> <em>View Profile</em>
+							</div>
+
+						</a>
+
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+				</ul>
+
+			</div>
+
+		</nav>
+
+	</div> 
+
+<header id="logged-in-mobile-nav" class="mobilenavheader">
+
+	<div class="search-pop-up-wrap">
+
+		<div class="search-box-pop-up">
+
+			<input class="inputbox searchbox" id="search" name="search" placeholder="Search" type="text">
+			<object type="image/svg+xml" data="../icons/search_icon.svg" class="searchbtn">
+				<img class="searchbtnfix" src="../icons/search_icon.png">
+			</object>
+
+		</div>
+
+		<div class="cancel-btn-wrap">
+			<div class="btn whitebtn">
+				Cancel
+			</div>
+		</div>
+
+	</div>
+
+	<a href="" class="menuiconwrap svg">
+		<object type="image/svg+xml" data="../icons/menu_icon.svg" class="menuicon">
+  			<img src="../icons/menu_icon.png">
+		</object>
+		<em class="mobile-menu-notification">3</em>
+	</a>
+		<ul>
+			<li>
+				<a class="logo-wrap svg" href="">
+					<object type="image/svg+xml" data="../logo.svg" class="logo">
+  						<img src="../logo.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<nav>
+					<div class="searchnavwrap left">
+						<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">	
+						<button class="left svg" type="submit">
+							<object type="image/svg+xml" data="../icons/search_icon.svg" class="searchbtn">
+								<img class="searchbtnfix" src="../icons/search_icon.png">
+							</object>
+						</button>
+					</div>
+				</nav>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="../icons/activity_icon.svg" class="activityicon">
+  						<img src="../icons/activity_icon.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="../icons/notification_icon.svg" class="notificationicon">
+  						<img src="../icons/notification_icon.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="../icons/message_icon.svg" class="messageicon">
+  						<img src="../icons/message_icon.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="../icons/dashboard_icon.svg" class="dashboardicon">
+  						<img src="../icons/dashboard_icon.png">
+					</object>
+				</a>
+			</li>
+			<li class="mobile-search-icon">
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="../icons/mobile_search_icon.svg" class="mobilesearchicon">
+  						<img src="../icons/mobile_search_icon.png">
+					</object>
+				</a>
+			</li>
+		</ul>
+	</header>
+
+	<div class="slide-out-mobile-nav">
+		<nav>
+			<ul>
+
+				<li class="mobile-nav-profile">
+					<a href="#"><img src="../ava.png" class="ava ava50" width="34" height="34">
+					<span class="username">bestofglass</span>
+				</a>
+				</li>
+
+				<li>
+					<input class="inputbox searchbox" id="search" name="search" placeholder="Search" type="text">
+					<object type="image/svg+xml" data="../icons/search_icon.svg" class="searchbtn">
+						<img class="searchbtnfix" src="../icons/search_icon.png">
+					</object>
+				</li>
+
+
+
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="../icons/nav_auction_icon.svg" class="navauctionicon navauctioniconmobile">
+  						<img src="../icons/nav_auction_icon.png">
+					</object>
+					New auction
+				</a>
+			</li>
+
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="../icons/bag_icon.svg" class="bagicon bagiconmobile">
+  						<img src="../icons/bag_icon.png">
+					</object>
+					Bag <em class="redtext">(3)</em>
+				</a>
+			</li>
+
+			<li>
+				<a class="mainnavlink subnavlink" href="">Link</a>
+			</li>
+
+			<li>
+				<a class="mainnavlink subnavlink" href="">Link</a>
+			</li>
+
+			<li>
+				<a class="mainnavlink subnavlink" href="">Link</a>
+			</li>
+
+			</ul>
+		</nav>
+
+	</div>
+
+	
+	<div id="edit-auction-form" class="new-auc-container mainbg">
+
+		<div class="msgtextarea msgsrcharea msgsrchareaheader">
+
+			<h1>Edit Auction</h1>
+
+		</div>
+
+		<form action="/upload" class="dropzone">
+
+		<section class="newauctiondescription newaucsections">
+
+			<h2><span class="circleorder">1</span> Describe your item</h2>
+
+			<div class="divideinput">
+
+				<label class="label-style" for="type">Category</label>
+
+				<select class="select-style" name="type" id="type">
+					<option>Rig</option>
+					<option>Pendant</option>
+					<option>Hand Pipe</option>
+					<option>Accessories</option>
+				</select>
+
+			</div>
+
+			<div class="divideinput">
+
+				<label class="label-style" for="artist">Artist(s) *</label>
+
+				<input class="redborder aucinput" name="artist" id="artist" placeholder="E.g. Apple Glass x Orange Glass">
+				<p class="tip required-error redtext">Required</p>
+			</div>
+
+			<div class="divideinput">
+
+				<label class="label-style" for="title">Title *</label>
+
+				<input class="aucinput" name="title" id="title" placeholder="E.g. Blue Stardust Klein">
+				<p class="tip required-error redtext">Required</p>
+			</div>
+
+			<div id="rig-options">
+
+				<div class="divideinput left">
+
+					<label class="label-style" for="height">Height *</label>
+
+					<input class="aucinput redborder" name="height" id="height" placeholder="E.g. 7.5&quot;">
+					<p class="tip required-error redtext">Required</p>
+				</div>	
+
+				<div class="divideinput left">
+
+					<label class="label-style" for="joint">Joint *</label>
+
+					<input class="aucinput" name="joint" id="joint" placeholder="E.g. 14mm Female">
+					<p class="tip required-error redtext">Required</p>
+
+				</div>	
+
+				<div class="divideinput left percfix">
+
+					<label class="label-style" for="perc">Perc *</label>
+
+					<input class="aucinput" name="perc" id="perc" placeholder="E.g. 2 hole">
+					<p class="tip required-error redtext">Required</p>
+				</div>
+
+			</div>
+
+			<div id="dry-pipe-options">
+
+				<div class="divideinput left">
+
+					<label class="label-style" for="height">Length *</label>
+
+					<input class="aucinput redborder" name="height" id="height" placeholder="E.g. 7.5&quot;">
+					<p class="tip required-error redtext">Required</p>
+				</div>	
+
+			</div>
+
+			<div id="pendant-options">
+
+				<div class="divideinput left">
+
+					<label class="label-style" for="height">Length *</label>
+
+					<input class="aucinput redborder" name="height" id="height" placeholder="E.g. 1.5&quot;">
+					<p class="tip required-error redtext">Required</p>
+				</div>	
+
+				<div class="divideinput left">
+
+					<label class="label-style" for="joint">Width *</label>
+
+					<input class="aucinput" name="joint" id="joint" placeholder="E.g. 1.5&quot;">
+					<p class="tip required-error redtext">Required</p>
+
+				</div>	
+
+				<div class="divideinput left percfix">
+
+					<label class="label-style" for="perc">Hole Size (not required)</label>
+
+					<input class="aucinput" name="perc" id="perc" placeholder="E.g. 4mm">
+					<p class="tip required-error redtext">Required</p>
+				</div>
+
+			</div>
+
+			<div id="accessories-options">
+
+				<div class="divideinput left">
+
+					<label class="label-style" for="height">Accessory type *</label>
+
+					<input class="aucinput redborder" name="height" id="height" placeholder="E.g. Dabber">
+					<p class="tip required-error redtext">Required</p>
+				</div>	
+
+			</div>
+			
+			<div class="divideinput descclear">
+				<label class="label-style" for="description">Description *</label>
+
+				<textarea class="inputstyle textarea-style" name="description" id="description" placeholder=""></textarea>
+
+				<p class="tip required-error redtext">Required</p>
+
+				<p class="tip"><object type="image/svg+xml" data="icons/help_icon.svg" class="helpicon">
+  						<img src="icons/help_icon.png">
+					</object><b>Tip:</b> Be very descriptive because the more detailed you are the less you will be asked questions regarding your item. Include colors, techniques, etc.</p>
+			</div>
+
+		</section>
+		<section class="newauctionimages newaucsections">
+
+			<h2><span class="circleorder">2</span> Edit images and videos</h2>
+
+			<div id="files" class="files">
+
+				<div>
+					<img src="aucimg.png">
+					<a href="#"> Remove file</a>
+				</div>
+
+				<div>
+					<img src="aucimg.png">
+					<a href="#"> Remove file</a>
+				</div>
+
+				<div>
+					<img src="aucimg.png">
+					<a href="#"> Remove file</a>
+				</div>
+
+				<div>
+					<img src="aucimg.png">
+					<a href="#"> Remove file</a>
+				</div>
+
+			</div>
+
+
+		
+		<p class="tip required-error redtext">Required</p>
+
+		</form>
+
+		</section>
+
+		<section class="newauctionimages newaucsections">
+
+			<h2><span class="circleorder">3</span> Add images and videos</h2>
+
+			<div class="dragndrop" id="dropzone-click-target">
+
+
+			<div class="noimgsdrag" id="dropzonePreview">
+
+						<div class="add-more-images">
+
+							<div class="btn greenbtn">Add Images</div>
+
+						</div>
+					
+  						<img src="icons/draganddrop_icon.png" width="125" height="100" class="draganddropicon">
+				
+					
+						<p class="dndtxt">
+
+							Drag multiple images and/or a video here or click <span>browse</span> to upload multiple images and a video.
+
+
+							
+						</p>
+						<input id="fileupload" type="file" name="files[]" multiple>
+
+			</div>
+
+
+
+
+
+			</div>
+
+
+		
+		<p class="tip required-error redtext">Required</p>
+
+
+		</section>
+
+		<section class="newauctionpricing newaucsections">
+
+			<h2><span class="circleorder">3</span> Format and pricing</h2>
+
+			<div class="divideinput">
+
+				<label class="label-style" for="starting">Starting Price *</label>
+				<div class="relative">
+					<span class="dollarsign">$</span>
+					<input class="dollarinput aucinput" name="starting" id="starting" placeholder="E.g. 0">
+
+					<p class="tip required-error redtext">Required</p>
+
+				<p class="tip"><object type="image/svg+xml" data="icons/help_icon.svg" class="helpicon">
+  						<img src="icons/help_icon.png">
+					</object><b>Tip:</b> All auctions have a minimum incremental bid of $1. You may also make the starting bid and buy it now price the same for a fixed price.</p>
+				</div>
+
+			</div>
+
+			<div class="divideinput">
+
+				<label class="label-style" for="reserve">Reserve Price (optional)</label>
+				<div class="relative">
+					<span class="dollarsign">$</span>
+					<input class="dollarinput aucinput" name="reserve" id="reserve" placeholder="E.g. 200">
+					<p class="tip"><object type="image/svg+xml" data="icons/help_icon.svg" class="helpicon">
+  						<img src="icons/help_icon.png">
+					</object><b>Tip:</b> This is the minimum price you are willing to sell your item for. If the auction does not meet this price you will have the option to sell it or not sell it.</p>
+				</div>
+
+			</div>
+
+			<div class="divideinput">
+
+				<label class="label-style" for="bin">Buy It Now (optional)</label>
+				<div class="relative">
+					<span class="dollarsign">$</span>
+					<input class="dollarinput aucinput" name="bin" id="bin" placeholder="E.g. 500">
+					<p class="tip"><object type="image/svg+xml" data="icons/help_icon.svg" class="helpicon">
+  						<img src="icons/help_icon.png">
+					</object><b>Tip:</b> Leave blank if you would like the option for bidders to bid as high as possible or are unsure of the retail price.</p>
+				</div>
+
+			</div>
+
+			<div class="divideinput">
+
+				<label class="label-style">Shipping to</label>
+
+				<select class="select-style">
+					<option>U.S.A. only</option>
+					<option>U.S.A. and Canada</option>
+				</select>
+
+			</div>
+			<div class="divideinput">
+
+				<label class="label-style" for="shipping">Shipping price</label>
+				<div class="relative">
+					<span class="dollarsign">$</span>
+					<input class="dollarinput aucinput" name="shipping" id="shipping" placeholder="E.g. 15">
+					<p class="tip"><object type="image/svg+xml" data="icons/help_icon.svg" class="helpicon">
+  						<img src="icons/help_icon.png">
+					</object><b>Tip:</b> Leave blank for free shipping.</p>
+				</div>
+
+			</div>
+
+		</section>
+
+
+
+		<section class="newauctionpricing newaucsections">
+
+			<div class="relative">
+
+				<input class="btn" value="Submit new auction">
+
+			<div class="btn disabledbtn creating-auction-btn" id="auction_submitted">
+				<img src="icons/gear.gif" width="31" height="31">
+				<em>Creating Auction</em>
+			</div>
+
+			</div>
+		</section>
+
+
+
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="dz.js"></script>
+
+</body>
+</html>

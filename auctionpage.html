@@ -1,0 +1,583 @@
+<html>
+<head>
+	<title></title>
+
+	<meta charset=UTF-8>
+	<meta http-equiv=X-UA-Compatible content="IE=edge"/>
+	<meta content="True" name="HandheldFriendly">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="site.css">
+
+
+
+ 
+<!--  jQuery 1.7+  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+ 
+<!-- Include js plugin -->
+<script src="owl-carousel/owl.carousel.js"></script>
+
+
+</head>
+
+<body class="site">
+
+<main class="site-content">
+
+<div id="logged-in-nav" class="mainnavwrap">
+		<nav>
+				<a class="logo-wrap svg" href="">
+					<object type="image/svg+xml" data="logo.svg" class="logo">
+  						<img src="logo.png">
+					</object>
+				</a>
+
+			<div class="searchnavwrap left">
+				<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">	
+				<!-- <input class="searchbtn left" name="commit" type="submit" value=""> -->
+				<button class="left svg" type="submit">
+					<object type="image/svg+xml" data="icons/search_icon.svg" class="searchbtn">
+						<img class="searchbtnfix" src="icons/search_icon.png">
+					</object>
+				</button>
+			</div>
+
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/activity_icon.svg" class="activityicon">
+  					<img src="icons/activity_icon.png">
+				</object>
+
+				<span class="notifycircle"></span>
+				<em class="navtxt">Activity</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/notification_icon.svg" class="notificationicon">
+  					<img src="icons/notification_icon.png">
+				</object>
+				<span class="notifycircle"></span>
+				<em class="navtxt">Notifications</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/message_icon.svg" class="messageicon">
+  					<img src="icons/message_icon.png">
+				</object>
+				<em class="navtxt">Messages</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/dashboard_icon.svg" class="dashboardicon">
+  					<img src="icons/dashboard_icon.png">
+				</object>
+				<em class="navtxt">Dashboard</em>
+			</a>
+
+			<div class="rightnavlink right">
+				<a  href="#" class="left whitebtn new-auction-nav-btn svg">
+					<span class="auctioniconwrap">
+					<object type="image/svg+xml" data="icons/nav_auction_icon.svg" class="navauctionicon">
+  						<img src="icons/nav_auction_icon.png">
+					</object>
+					</span>
+				</a>
+				<div class="toggle-dropdown left">
+					<img src="ava.png" class="ava ava34" width="34" height="34">	
+					<object type="image/svg+xml" data="icons/menu_icon.svg" class="menuicon">
+  						<img src="icons/menu_icon.png">
+					</object>
+				</div>
+			</div>
+
+			<div class="drop-down-menu">
+
+				<ul>
+					<li>
+
+						<a href="#">
+							<div class="username">
+								<span>bestofglass</span> <em>View Profile</em>
+							</div>
+
+						</a>
+
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+				</ul>
+
+			</div>
+
+		</nav>
+
+	</div> 
+
+<header id="logged-in-mobile-nav" class="mobilenavheader">	
+	<a href="" class="menuiconwrap svg">
+		<object type="image/svg+xml" data="icons/menu_icon.svg" class="menuicon">
+  			<img src="icons/menu_icon.png">
+		</object>
+		<em class="mobile-menu-notification">3</em>
+	</a>
+		<ul>
+			<li>
+				<a class="logo-wrap svg" href="">
+					<object type="image/svg+xml" data="logo.svg" class="logo">
+  						<img src="logo.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<nav>
+					<div class="searchnavwrap left">
+						<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">	
+						<button class="left svg" type="submit">
+							<object type="image/svg+xml" data="icons/search_icon.svg" class="searchbtn">
+								<img class="searchbtnfix" src="icons/search_icon.png">
+							</object>
+						</button>
+					</div>
+				</nav>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/activity_icon.svg" class="activityicon">
+  						<img src="icons/activity_icon.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/notification_icon.svg" class="notificationicon">
+  						<img src="icons/notification_icon.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/message_icon.svg" class="messageicon">
+  						<img src="icons/message_icon.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/dashboard_icon.svg" class="dashboardicon">
+  						<img src="icons/dashboard_icon.png">
+					</object>
+				</a>
+			</li>
+			<li class="mobile-search-icon">
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/mobile_search_icon.svg" class="mobilesearchicon">
+  						<img src="icons/mobile_search_icon.png">
+					</object>
+				</a>
+			</li>
+		</ul>
+	</header>
+
+
+
+<!-- 	<div id="flashmessage" class="flash-success gen-flash">
+		<span class="success-msg">Message successful.</span>
+	</div> -->
+
+	<div id="flashmessage" class="flash-error gen-flash">
+		<span class="error-msg">Please correct the following errors:
+		<ul>
+			<li>Error One</li>
+			<li>Error Two</li>
+			<li>Error Three</li>
+			<li>Error Four</li>
+		</ul>
+		</span>
+	</div>
+<!-- 
+	<div id="flashmessage" class="flash-general gen-flash">
+		<span class="general-msg">Message successful.</span>
+	</div> -->
+ 
+
+
+
+	<div class="mainbg mainwrap">
+
+	<div class="auction-message">
+		<span class="general-auction-message">This auction has ended with no bids on users end || Relist on artists end</span>
+	</div>
+
+	<div class="auction-message">
+		<span class="green-auction-message">Auction ended successfuly - Pay for auction on winners end || Auction ended successfully on users end</span>
+	</div>
+
+	<div class="auction-message">
+		<span class="yellow-auction-message">Reserve not met - Relist auction (artist end) || Auction has ended and did not reach the reserve</span>
+	</div>
+
+		<div class="auctiontopwrap">
+
+			<section class="left auctionimage">
+
+			<div class="auction-image-loader">
+
+				<img src="icons/rolling.gif" width="45" height="45">
+
+			</div>
+		<div id="owl-example" class="owl-carousel">
+
+				<div class="owl-item">
+				<img src="aucimg.png" width="470" height="470">
+				</div>
+
+				<div class="owl-item">
+				<img src="aucimg.png" width="470" height="470">
+				</div>
+
+
+
+			</div> 
+
+
+<!-- 				<ul class="sliderindicator">
+
+					<li class="activeind"></li>
+				</ul> -->
+
+
+			</section>
+
+
+			<section class="bidarea left">
+
+
+				<span class="artistheader">
+					Artist(s)
+				</span>
+
+				<span class="artistnames">
+
+					<h1>
+						Vibe Glass
+					</h1>
+
+				</span>
+
+				<ul class="productspecs">
+
+					<li>
+						<span class="aucheight">
+							Height
+						</span>
+						<span class="sizespec">
+							7.5"
+						</span>
+					</li>
+
+					<li>
+						<span class="aucjoint">
+							Joint
+						</span>
+						<span class="sizespec">
+							14mm Female
+						</span>
+					</li>
+
+					<li>
+						<span class="aucperc">
+							Perc
+						</span>
+						<span class="sizespec">
+							2 Hole
+						</span>
+					</li>
+
+				</ul>
+
+				<div class="auctimeleft">
+
+					<p>Time left: <em class="rortime">3h 20m 16s</em></p>
+
+				</div>
+
+				<div class="mainbids">
+
+					<div class="currentbidtxt">
+						Current Bid <em class="reservetxt">*Reserve has not been met</em>
+
+					</div>
+
+					<div class="currentbidprice">
+						<span class="bidnumber">$300</span>
+						<div class="amntbids">
+							<a href="#">3 bids</a>
+						</div>
+					</div>
+
+					<div class="relative">
+						<span class="biddollarsign">$</span>
+						<input class="biddollarinput left" name="starting" id="starting" placeholder="0">
+						<input class="left btn orangebtn placebidbtn" type="submit" value="Place Bid">
+						<p class="redtext enter-more-error">Enter $305 or more</p>
+
+					</div>
+						<p class="tip">
+							<object type="image/svg+xml" data="icons/help_icon.svg" class="helpicon">
+  							<img src="icons/help_icon.png">
+							</object><b>Note:</b> Update your <a href="#">shipping information</a> to place a bid.
+						</p>
+
+
+					<div class="buyitnowtxt">
+						Buy It Now
+					</div>
+
+					<div class="currentbidprice">
+						<span class="bidnumber">$2,000</span>
+					</div>
+
+					<div class="relative">
+						<a class="left btn" href="#">Buy It Now</a>
+						<button class="btn favoritebtn svg">
+							<object type="image/svg+xml" data="icons/star_icon.svg" class="staricon">
+  								<img src="icons/favorite_icon.png">
+							</object>
+							Favorite
+						</button>
+					</div>
+
+<!-- 					<div class="relative">
+						<button class="btn favoritebtn favorite-no-bin svg">
+							<object type="image/svg+xml" data="icons/star_icon.svg" class="staricon">
+  								<img src="icons/favorite_icon.png">
+							</object>
+							Favorite
+						</button>
+					</div>
+ -->
+				</div>
+
+				<div id="winning-bid" class="mainbids">
+
+					<div class="buyitnowtxt">
+						Winnning Bid
+					</div>
+
+					<div class="currentbidprice">
+						<span class="bidnumber">$2,000</span>
+					</div>
+
+					<div class="relative">
+						<a class="left btn" href="#">Proceed to checkout</a>
+					</div>
+
+				</div>
+
+				<div id="winning-bid" class="mainbids auction-ended-message">
+
+					<div class="buyitnowtxt">
+						<p>This auction has ended.</p>
+						<p>Final price: $300</p>
+						<p>Winner: <a href="#">bestofglass</a></p>
+					</div>
+
+				</div>
+
+				<ul class="subaucinfo">
+
+					<li>
+
+						<em class="subdesc">Shipping:</em> <b>$15</b>
+
+					</li>
+
+					<li>
+
+						<em class="subdesc">Item Location:</em> <b>San Francisco, CA</b>
+
+					</li>
+
+					<li>
+
+						<em class="subdesc">Ships to:</em> <b>U.S.A. & Canada</b>
+
+					</li>
+
+					<li>
+
+						<em class="subdesc">Payments:</em>
+
+						<object type="image/svg+xml" data="icons/visa_icon.svg" class="payment-icon">
+							<img class="payment-icon" src="icons/visa_icon.png">
+						</object>
+
+						<object type="image/svg+xml" data="icons/mastercard_icon.svg" class="payment-icon">
+							<img class="payment-icon" src="icons/mastercard_icon.png">
+						</object>
+
+						<object type="image/svg+xml" data="icons/amex_icon.svg" class="payment-icon">
+							<img class="payment-icon" src="icons/amex_icon.png">
+						</object>
+
+
+					</li>
+
+					<li>
+						<div class="auction-page-payment-tip">
+							<p class="tip">
+								<object type="image/svg+xml" data="icons/help_icon.svg" class="helpicon">
+									<img src="icons/help_icon.png"></object> <b>Note:</b>
+								Payments above x amount will be...
+							</p>
+						</div>
+					</li>
+
+				</ul>
+
+			</section>
+
+	</div>
+
+	<div class="desccontainer">
+
+		<div class="descwrap">
+			<h3 class="desctitle"><b>Tubulator</b> by <b>Vibe Glass x Chip Glass x Wario Glass</b></h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lacus tempus, luctus tortor at, pulvinar arcu. Nunc blandit lectus rhoncus varius mattis. Sed id mattis ipsum. Cras vehicula odio ut dolor congue porttitor. Donec a suscipit nisl, quis consectetur nulla. Nunc dignissim sem et tincidunt vehicula. Nam sit amet porta lorem, sit amet tincidunt urna.
+			</p>
+		</div>
+
+		<div class="descsellertop">
+			<a href="#"><img src="ava.png" class="ava ava34" width="34" height="34"></a>
+			<a class="sllerusrnme"href="#">bestofglass</a>
+		</div>
+
+		<div class="descsellerbottom">
+			<a href="#"><img src="ava.png" class="ava ava34" width="34" height="34"></a>
+			<a class="sllerusrnme"href="#">vibeglass</a>
+		</div>
+
+		<div class="commentswrap">
+
+			<h4 class="cmtheader">Comments <i class="circle"></i><em class="amntcmnts">3 comments</em></h4>
+
+			<textarea placeholder="Enter a comment..."></textarea>
+			<input class="btn" value="Post Comment">
+			
+			<ul class="auccomments">
+
+				<li>
+
+				<a href="#"><img src="ava.png" class="ava ava34" width="34" height="34"></a>
+				<a class="cmtusrnme"href="#">bestofglass</a>
+				<span>1 minute ago</span>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lacus tempus, luctus tortor at, pulvinar arcu. Nunc blandit lectus rhoncus varius mattis. Sed id mattis ipsum. Cras vehicula odio ut dolor congue porttitor.
+				</p>
+
+				<a class="deletebtn" href="#">Delete</a>
+
+				</li>
+
+				<li>
+
+				<a href="#"><img src="ava.png" class="ava ava34" width="34" height="34"></a>
+				<a class="cmtusrnme"href="#">bestofglass</a>
+				<span>1 minute ago</span>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lacus tempus, luctus tortor at, pulvinar arcu. Nunc blandit lectus rhoncus varius mattis. Sed id mattis ipsum. Cras vehicula odio ut dolor congue porttitor.
+				</p>
+
+				<a class="deletebtn" href="#">Delete</a>
+
+
+
+				</li>
+
+			</ul>
+
+		</div>
+
+	</div>
+
+
+
+	</div>
+
+</main>
+
+	<footer>
+
+		<div class="footer-wrap">
+
+			<ul class="footer-link-list">
+
+				<li>
+					<a href="#">About</a>
+				</li>
+
+				<li>
+					<a href="#">Contact</a>
+				</li>
+				<li>
+					<a href="#">User Agreement</a>
+				</li>
+
+				<li>
+					<a href="#">Terms of Service</a>
+				</li>
+				<li>
+					<a href="#">Privacy Policy</a>
+				</li>
+
+
+				<li>
+					<a class="svg" href="#">
+						<object type="image/svg+xml" data="icons/instagram_icon.svg" class="instagramicon">
+  							<img src="icons/instagram_icon.png">
+						</object>
+					</a>
+				</li>
+
+			</ul>
+
+			<a class="svg footerlogo" href="">
+				<object type="image/svg+xml" data="logo.svg" class="logo">
+					<img src="logo.png">
+				</object>
+			</a>
+
+			<div class="copyright">
+				Best of Glass 2016. Made in San Francisco, California
+			</div>
+
+		</div>
+
+	</footer>
+
+
+
+<script>
+
+$(document).ready(function() {
+  $(".auction-image-loader").hide()
+ 
+  $("#owl-example").owlCarousel();
+ 
+
+
+
+});
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+Flash Messages
+
+Home Page 
+
+<div id="flashmessage" class="flash-success hp-flash">
+
+Auction Page, Profile Page
+
+<div id="flashmessage" class="flash-success gen-flash">
+
+
+Home page navigation - remove class "hp-logged-out-nav" on scroll.
+
+
+home page sub nav - add "hp-sub-nav-logged-in" if banner is removed
+
+Buy it now - add class "favorite-no-bin" if there is no BIN
+
+add class "favoritedbtn" when they favorite an auction
+
+add class "non-nav" to body if the page needs to hide the navigation
+
+add "profile-flash-fix" on flash message for profile feedback/likes/auctions/followers
+
+show search-pop-up-wrap when they click search button on mobile search
+
+"disabledbtn" class for disabled buttons 
+
+remove home page body class "hp-logged-out-nav" on scroll after x amount of pixels
+
+new auction page - remove class "z-index-btn-fix" on disabledbtn when clicking submit new auction
+
+"no-footer" on body class for pages without a footer
+
+
+----Body Class for activity page----
+
+.all-activity-page
+.you-activity-page
+.following-activity-page
+
+----------------------------
+
+----Body Class for dashboard pages----
+
+.bids-db-page
+.won-db-page
+.favorite-db-page
+.feedback-db-page
+
+.editprofile-db-page
+.accountsettings-db-page
+
+.billinginfo-db-page
+.purchasehistory-db-page
+
+----------------------------
+
+
+wrap all content under the slideout nav with <main id="wrapper"> </main>
+
+<div id="nav-backdrop"></div> goes underneath the slideout nav div and above the main wrapper
+
+
+-----
+sticky footer
+
+body class "site"
+
+wrapper around content with class "site-content"
+
+wrapper closes before before
+
+-----
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="110px" height="160px" viewBox="0 0 110 160" enable-background="new 0 0 110 160" xml:space="preserve">
+<polygon fill="#E55552" points="5.826,5.405 13.826,5.405 13.826,51.813 5.826,117.438 "/>
+<rect x="14.036" y="5.495" fill="#E78161" width="8" height="111.942"/>
+<rect x="11.209" y="5.401" fill="#283B42" width="5" height="113.921"/>
+<rect x="3.388" y="3.166" fill="none" stroke="#283B42" stroke-width="5" stroke-miterlimit="10" width="21.084" height="95.813"/>
+<g>
+	<defs>
+		<path id="XMLID_1_" d="M84.157,104.5c0,17-13.366,30.021-29.854,30.021s-29.854-13.283-29.854-29.771s13.366-29.813,29.854-29.813
+			c6.233,0,12.019,1.935,16.807,5.201l6.578-14.95l4.035-3.683c-7.929-5.086-17.352-8.045-27.471-8.045
+			c-28.147,0-50.965,22.819-50.965,50.967s22.817,50.799,50.965,50.799c28.012,0,50.735-22.726,50.955-50.726H84.157z"/>
+	</defs>
+	<use xlink:href="#XMLID_1_"  overflow="visible" fill="#0D88A5"/>
+	<clipPath id="XMLID_3_">
+		<use xlink:href="#XMLID_1_"  overflow="visible"/>
+	</clipPath>
+	
+		<circle clip-path="url(#XMLID_3_)" fill="#43B1CE" stroke="#283B42" stroke-width="5.2149" stroke-miterlimit="10" cx="54.247" cy="104.343" r="41.034"/>
+	<use xlink:href="#XMLID_1_"  overflow="visible" fill="none" stroke="#283B42" stroke-width="5" stroke-miterlimit="10"/>
+</g>
+<circle fill="#FCCDA0" stroke="#283B42" stroke-width="5" stroke-miterlimit="10" cx="75.792" cy="77.367" r="16.58"/>
+<circle fill="#FAB869" stroke="#283B42" stroke-width="5" stroke-miterlimit="10" cx="75.792" cy="77.494" r="7.098"/>
+<rect x="84.139" y="104.54" fill="#FFFFFF" stroke="#283B42" stroke-width="5" stroke-miterlimit="10" width="21.084" height="51.088"/>
+<rect x="86.717" y="107.004" fill="#95D4BE" width="8" height="46.111"/>
+<rect x="94.717" y="107.004" fill="#65C3A8" width="8" height="46.111"/>
+<rect x="92" y="106" fill="#283B42" width="5" height="49"/>
+</svg>

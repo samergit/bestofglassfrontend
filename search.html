@@ -1,0 +1,537 @@
+<html>
+<head>
+	<title></title>
+
+	<meta charset=UTF-8>
+	<meta http-equiv=X-UA-Compatible content="IE=edge"/>
+	<meta content="True" name="HandheldFriendly">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="site.css">
+
+
+
+ 
+<!--  jQuery 1.7+  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+ 
+<!-- Include js plugin -->
+<script src="owl-carousel/owl.carousel.js"></script>
+
+
+</head>
+
+<body class="hp-bgfix">
+
+<div id="logged-in-nav" class="mainnavwrap">
+		<nav>
+				<a class="logo-wrap svg" href="">
+					<object type="image/svg+xml" data="logo.svg" class="logo">
+  						<img src="logo.png">
+					</object>
+				</a>
+
+			<div class="searchnavwrap left">
+				<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">	
+				<!-- <input class="searchbtn left" name="commit" type="submit" value=""> -->
+				<button class="left svg" type="submit">
+					<object type="image/svg+xml" data="icons/search_icon.svg" class="searchbtn">
+  						<img src="icons/activity_icon.png">
+					</object>
+				</button>
+			</div>
+
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/activity_icon.svg" class="activityicon">
+  					<img src="icons/activity_icon.png">
+				</object>
+
+				<span class="notifycircle"></span>
+				<em class="navtxt">Activity</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/notification_icon.svg" class="notificationicon">
+  					<img src="icons/notification_icon.png">
+				</object>
+				<span class="notifycircle"></span>
+				<em class="navtxt">Notifications</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/message_icon.svg" class="messageicon">
+  					<img src="icons/message_icon.png">
+				</object>
+				<em class="navtxt">Messages</em>
+			</a>
+			<a class="mainnavlink svg" href="">
+				<object type="image/svg+xml" data="icons/dashboard_icon.svg" class="dashboardicon">
+  					<img src="icons/dashboard_icon.png">
+				</object>
+				<em class="navtxt">Dashboard</em>
+			</a>
+
+			<div class="rightnavlink right">
+				<a  href="#" class="left whitebtn bag-notification svg">
+					<span class="bagiconwrap">
+					<object type="image/svg+xml" data="icons/bag_icon.svg" class="bagicon">
+  						<img src="icons/bag_icon.png">
+					</object>
+						<em class="checkout-items-notification">
+							3
+						</em>
+					</span>
+				</a>
+				<div class="toggle-dropdown left">
+					<img src="ava.png" class="ava ava34" width="34" height="34">	
+					<object type="image/svg+xml" data="icons/menu_icon.svg" class="menuicon">
+  						<img src="icons/menu_icon.png">
+					</object>
+				</div>
+			</div>
+
+			<div class="drop-down-menu">
+
+				<ul>
+					<li>
+
+						<a href="#">
+							<div class="username">
+								<span>bestofglass</span> <em>View Profile</em>
+							</div>
+
+						</a>
+
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+					<li>
+						<a href="#">Log out</a>
+					</li>
+				</ul>
+
+			</div>
+
+		</nav>
+
+	</div> 
+
+<header id="logged-in-mobile-nav" class="mobilenavheader">	
+	<a href="" class="menuiconwrap svg">
+		<object type="image/svg+xml" data="icons/menu_icon.svg" class="menuicon">
+  			<img src="icons/menu_icon.png">
+		</object>
+		<em class="mobile-menu-notification">3</em>
+	</a>
+		<ul>
+			<li>
+				<a class="logo-wrap svg" href="">
+					<object type="image/svg+xml" data="logo.svg" class="logo">
+  						<img src="logo.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<nav>
+					<div class="searchnavwrap left">
+						<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">	
+				<button class="left svg" type="submit">
+					<object type="image/svg+xml" data="icons/search_icon.svg" class="searchbtn">
+						<img class="searchbtnfix" src="icons/search_icon.png">
+					</object>
+				</button>
+					</div>
+				</nav>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/activity_icon.svg" class="activityicon">
+  						<img src="icons/activity_icon.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/notification_icon.svg" class="notificationicon">
+  						<img src="icons/notification_icon.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/message_icon.svg" class="messageicon">
+  						<img src="icons/message_icon.png">
+					</object>
+				</a>
+			</li>
+			<li>
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/dashboard_icon.svg" class="dashboardicon">
+  						<img src="icons/dashboard_icon.png">
+					</object>
+				</a>
+			</li>
+			<li class="mobile-search-icon">
+				<a class="mainnavlink svg" href="">
+					<object type="image/svg+xml" data="icons/mobile_search_icon.svg" class="mobilesearchicon">
+  						<img src="icons/mobile_search_icon.png">
+					</object>
+				</a>
+			</li>
+		</ul>
+	</header>
+
+	<div class="searchpagebox">
+		<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">	
+		<!-- <input class="searchbtn left" name="commit" type="submit" value="">	
+		-->
+		<button class="left svg  search-page-icon-fix" type="submit">
+			<object type="image/svg+xml" data="icons/search_icon.svg" class="searchbtn">
+				<img src="icons/activity_icon.png">
+			</object>
+		</button>
+	</div>
+
+	<h1 class="search-header">
+		Search Results: "Mike Raman Glass"
+	</h1>
+	<em class="amnt-results">
+		35 results
+	</em>
+
+		<ul class="hp-auction-listings artist-search-result">
+
+		<li>
+
+			<a href="#">
+
+				<img src="default_avatar_300.png" class="ava" width="150" height="150">
+
+				<div class="hp-auction-info">
+
+					<em class="hp-desc hp-artists">
+						bestofglassfgthyujkloasdb
+					</em>
+
+					<div class="btn greenbtn">View Profile</div>
+
+
+				</div>
+			</a>
+
+		</li>
+	</ul>
+
+
+	<ul class="hp-auction-listings">
+
+		<li>
+
+			<a href="#">
+
+				<div class="hp-seller">
+					<img src="ava.png" class="ava ava34" width="34" height="34"> bestofglassfgthyujkfeeeee
+				</div>
+
+				<img src="aucimg.png" class="hp-auc-img" width="266" height="266">		
+				<div class="hp-auction-info">
+					
+					<em class="hp-title hp-artist-title">
+						Artist(s)
+					</em>
+
+					<em class="hp-desc hp-artists">
+						Vibe Glass x Vibe Glass
+					</em>
+
+					<em class="hp-title hp-time-title">
+						Time Left
+					</em>
+
+					<em class="hp-desc hp-time-left">
+						3d 20m 16s
+					</em>
+
+					<em class="hp-title hp-currentbid-title">
+						Current Bid
+					</em>
+
+					<em class="hp-desc hp-currentbid">
+						$300
+					</em>
+
+					<div class="btn">View Details</div>
+
+
+				</div>
+			</a>
+
+		</li>
+
+		<li>
+
+			<a href="#">
+
+				<div class="hp-seller">
+					<img src="ava.png" class="ava ava34" width="34" height="34"> bestofglass
+				</div>
+
+				<img src="aucimg.png" class="hp-auc-img" width="266" height="266">		
+				<div class="hp-auction-info">
+					
+					<em class="hp-title hp-artist-title">
+						Artist(s)
+					</em>
+
+					<em class="hp-desc hp-artists">
+						Vibe Glass x Vibe Glass
+					</em>
+
+					<em class="hp-title hp-time-title">
+						Time Left
+					</em>
+
+					<em class="hp-desc hp-time-left">
+						3d 20m 16s
+					</em>
+
+					<em class="hp-title hp-currentbid-title">
+						Current Bid
+					</em>
+
+					<em class="hp-desc hp-currentbid">
+						$300
+					</em>
+
+					<div class="btn">View Details</div>
+
+
+				</div>
+			</a>
+
+		</li>
+
+		<li>
+
+			<a href="#">
+
+				<div class="hp-seller">
+					<img src="ava.png" class="ava ava34" width="34" height="34"> bestofglass
+				</div>
+
+				<img src="aucimg.png" class="hp-auc-img" width="266" height="266">		
+				<div class="hp-auction-info">
+					
+					<em class="hp-title hp-artist-title">
+						Artist(s)
+					</em>
+
+					<em class="hp-desc hp-artists">
+						Vibe Glass x Vibe Glass
+					</em>
+
+					<em class="hp-title hp-time-title">
+						Time Left
+					</em>
+
+					<em class="hp-desc hp-time-left">
+						3d 20m 16s
+					</em>
+
+					<em class="hp-title hp-currentbid-title">
+						Current Bid
+					</em>
+
+					<em class="hp-desc hp-currentbid">
+						$300
+					</em>
+
+					<div class="btn">View Details</div>
+
+
+				</div>
+			</a>
+
+		</li>
+
+				<li>
+
+			<a href="#">
+
+				<div class="hp-seller">
+					<img src="ava.png" class="ava ava34" width="34" height="34"> bestofglass
+				</div>
+
+				<img src="aucimg.png" class="hp-auc-img" width="266" height="266">		
+				<div class="hp-auction-info">
+					
+					<em class="hp-title hp-artist-title">
+						Artist(s)
+					</em>
+
+					<em class="hp-desc hp-artists">
+						Vibe Glass x Vibe Glass
+					</em>
+
+					<em class="hp-title hp-time-title">
+						Time Left
+					</em>
+
+					<em class="hp-desc hp-time-left">
+						3d 20m 16s
+					</em>
+
+					<em class="hp-title hp-currentbid-title">
+						Current Bid
+					</em>
+
+					<em class="hp-desc hp-currentbid">
+						$300
+					</em>
+
+					<div class="btn">View Details</div>
+
+
+				</div>
+			</a>
+
+		</li>
+				<li>
+
+			<a href="#">
+
+				<div class="hp-seller">
+					<img src="ava.png" class="ava ava34" width="34" height="34"> bestofglass
+				</div>
+
+				<img src="aucimg.png" class="hp-auc-img" width="266" height="266">		
+				<div class="hp-auction-info">
+					
+					<em class="hp-title hp-artist-title">
+						Artist(s)
+					</em>
+
+					<em class="hp-desc hp-artists">
+						Vibe Glass x Vibe Glass
+					</em>
+
+					<em class="hp-title hp-time-title">
+						Time Left
+					</em>
+
+					<em class="hp-desc hp-time-left">
+						3d 20m 16s
+					</em>
+
+					<em class="hp-title hp-currentbid-title">
+						Current Bid
+					</em>
+
+					<em class="hp-desc hp-currentbid">
+						$300
+					</em>
+
+					<div class="btn">View Details</div>
+
+
+				</div>
+			</a>
+
+		</li>
+				<li>
+
+			<a href="#">
+
+				<div class="hp-seller">
+					<img src="ava.png" class="ava ava34" width="34" height="34"> bestofglass
+				</div>
+
+				<img src="aucimg.png" class="hp-auc-img" width="266" height="266">		
+				<div class="hp-auction-info">
+					
+					<em class="hp-title hp-artist-title">
+						Artist(s)
+					</em>
+
+					<em class="hp-desc hp-artists">
+						Vibe Glass x Vibe Glass
+					</em>
+
+					<em class="hp-title hp-time-title">
+						Time Left
+					</em>
+
+					<em class="hp-desc hp-time-left">
+						3d 20m 16s
+					</em>
+
+					<em class="hp-title hp-currentbid-title">
+						Current Bid
+					</em>
+
+					<em class="hp-desc hp-currentbid">
+						$300
+					</em>
+
+					<div class="btn">View Details</div>
+
+
+				</div>
+			</a>
+
+		</li>
+				<li>
+
+			<a href="#">
+
+				<div class="hp-seller">
+					<img src="ava.png" class="ava ava34" width="34" height="34"> bestofglass
+				</div>
+
+				<img src="aucimg.png" class="hp-auc-img" width="266" height="266">		
+				<div class="hp-auction-info">
+					
+					<em class="hp-title hp-artist-title">
+						Artist(s)
+					</em>
+
+					<em class="hp-desc hp-artists">
+						Vibe Glass x Vibe Glass
+					</em>
+
+					<em class="hp-title hp-time-title">
+						Time Left
+					</em>
+
+					<em class="hp-desc hp-time-left">
+						3d 20m 16s
+					</em>
+
+					<em class="hp-title hp-currentbid-title">
+						Current Bid
+					</em>
+
+					<em class="hp-desc hp-currentbid">
+						$300
+					</em>
+
+					<div class="btn">View Details</div>
+
+
+				</div>
+			</a>
+
+		</li>
+
+
+
+
+
+
+	</ul>
+
+
+</body>
+</html>

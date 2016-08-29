@@ -1,0 +1,226 @@
+//$bgcolor: #e3e8ee;
+//$bgcolor: #ebf0f2;
+$bgcolor:#f0f4f7;
+//$bgcolor:lighten(#ebeff2, 2%);
+//$bgcolor: #f2f2f5;
+//$bgcolor:#ffffff;
+
+//logo colors
+
+$red: #e55552;
+$orange: #f28361;
+
+$darkred:#e45454;
+
+$darkblue: #0f76a3;
+$lightblue: #44a2cc;
+
+
+$darkyellow: #fab869;
+$lightyellow: #fccda0;
+
+$darkgreen: #65c3a8;
+$lightgreen: #92ccb4;
+
+$darkgrey: #2b373d;
+$darkbgblue: #1b262b;
+
+$greybtncolor: #e9edf0;
+
+$unreadblue: darken(#e9f0f5, 3%);
+
+$bordercolor: darken($bgcolor, 10%);
+
+
+$navbg: #1f313b;
+
+$dbactive: lighten($navbg, 7%);
+
+@mixin box-sizing {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pay-off-wrap {
+	width:1400px;
+	background: #ffffff;
+
+	.dashboard-content-area {
+		width:100%;
+	}
+
+	.dashboard-content-area .db-inner-wrap {
+		margin-top:0;
+	}
+
+	.dashboard-content-area .db-content-header {
+		text-align: center;
+	}
+
+	.pricing-stats {
+		max-width:500px;
+		margin:0 auto;
+	}
+
+	.pay-out-form {
+		max-width:360px;
+		margin:0 auto 40px;
+
+		.inputbox {
+			width:240px;
+			height:42px;
+			padding:0 15px;
+			margin-right:10px;
+		}
+
+		.btn {
+			width:100px;
+		}
+
+		.complete-payout-btn {
+			width:100%;
+		}
+	}
+
+	.auctiontopwrap {
+		width:600px;
+
+		.auctionimage, .bidarea {
+			width:100%;
+
+			img {
+				margin-bottom:10px;
+			}
+		}
+
+		.auctionimage ul {
+			width:100%;
+		}
+
+		.thumb, .thumbnailinfo {
+			text-align: center;
+			float:none;
+			width:100% !important;
+		}
+	}
+
+	.add-tracking-info .btn {
+		width:300px;
+	}
+}
+
+.pay-off-nav {
+	li {
+
+		a {
+			width:16.666%;
+			float:left;
+			padding:40px 20px;
+			@include box-sizing;
+			text-decoration: none;
+			margin-bottom:20px;
+			background: darken($bgcolor, 5%);
+			border-top:4px solid darken($bgcolor, 10%);
+			color:$darkgrey;
+			font-family:'proxima_nova_ltsemibold';
+			text-align: center;
+
+			&:hover {
+				background: darken($bgcolor, 10%);
+				border-top:4px solid $lightblue;
+			}
+		}
+	}
+
+	.pay-off-active-link {
+		border-top-color:$lightblue;
+	}
+}
+
+.favorited-auctions-list {
+	padding:10px 20px;
+}
+
+.favorited-auctions-list .favorited-auc-link {
+	padding:10px 5px;
+}
+
+.favorited-auctions-list .favorited-auctions-list-item {
+	text-align: left;
+}
+
+.favorited-auctions-list .favorited-auctions-list-item ul li {
+	width:16.66%;
+	padding:10px 10px;
+	overflow: hidden;
+}
+
+.favorited-auctions-list .favorited-auctions-list-item .title {
+	text-transform: none;
+	color:$darkgrey;
+	letter-spacing: 0;
+	font-size:100%;
+
+	b {
+		color:darken($bgcolor, 30%) !important;
+	}
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.desc-list .title {
+	color:darken($bgcolor, 40%) !important;
+}
+
+//1099
+
+.wrap1099 {
+
+	max-width:500px;
+	background: #ffffff;
+	padding:40px;
+	@include box-sizing;
+
+	ul {
+		margin-top:30px;
+		font-size:120%;
+
+		li {
+			line-height: 50px;
+			border-bottom:1px solid $bgcolor;
+
+			a {
+				text-decoration: none;
+			}
+
+			em {
+				float:right;
+				font-family:'proxima_nova_ltsemibold';
+			}
+		}
+	}
+
+	.addy {
+		font-size:85%;
+		line-height: 22px;
+		background: $bgcolor;
+		padding:20px;
+	}
+
+}
+
+//totals
+
+.totals-wrap .wrap1099.right li {
+	line-height: 28px;
+	margin-bottom:30px;
+	font-size:90%;
+
+}
+
+.totals-wrap .wrap1099.right li.remove-border {
+	margin-bottom:0;
+}

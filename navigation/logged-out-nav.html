@@ -1,0 +1,144 @@
+<html>
+<head>
+	<title></title>
+
+	<meta charset=UTF-8>
+	<meta http-equiv=X-UA-Compatible content="IE=edge"/>
+	<meta content="True" name="HandheldFriendly">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="../site.css">
+</head>
+
+<body>
+
+
+	<div class="slide-out-mobile-nav">
+		<div class="close-menu-button">
+			<a class="svg">
+				<em>Close Menu</em>
+				<object type="image/svg+xml" data="../icons/x_icon.svg" class="xicon">
+					<img class="../xbtnfix" src="../icons/x_icon.png">
+				</object>
+			</a>
+		</div>
+		<nav>
+			<ul>
+				<li class="logged-out-nav-mobile-btns">
+					<a class="btn" href="#">
+						Join
+					</a>
+					<a class="btn redbtn" href="#">
+						Learn More
+					</a>
+
+				</li>	
+
+				<li class="logged-out-nav-mobile-btns">
+					<a class="btn whitebtn" href="#">
+						Sign in
+					</a>
+
+				</li>
+
+				<li>
+					<input class="inputbox searchbox" id="search" name="search" placeholder="Search" type="text">
+					<object type="image/svg+xml" data="../icons/search_icon.svg" class="searchbtn">
+						<img class="searchbtnfix" src="../icons/search_icon.png">
+					</object>
+				</li>
+
+		
+
+				<li>
+					<a class="mainnavlink subnavlink" href="">Link</a>
+				</li>
+
+				<li>
+					<a class="mainnavlink subnavlink" href="">Link</a>
+				</li>
+
+				<li>
+					<a class="mainnavlink subnavlink" href="">Link</a>
+				</li>
+
+			</ul>
+		</nav>
+
+	</div>
+
+	<div id="nav-backdrop"></div>
+
+	<div id="logged-out-nav" class="mainnavwrap">
+		<nav>
+				<a class="logo-wrap svg" href="">
+					<object type="image/svg+xml" data="../logo.svg" class="logo">
+  						<img src="../logo.png">
+					</object>
+				</a>
+
+			<div class="searchnavwrap left">
+				<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">	
+				<!-- <input class="searchbtn left" name="commit" type="submit" value=""> -->
+				<button class="left svg" type="submit">
+					<object type="image/svg+xml" data="../icons/search_icon.svg" class="searchbtn">
+  						<img src="../icons/activity_icon.png">
+					</object>
+				</button>
+			</div>
+
+			<div class="nav-cta right">
+				<a href="#" class="btn">Join</a>
+				<a href="#" class="btn whitebtn">Sign in</a>
+			</div>
+
+		</nav>
+
+	</div>
+
+
+	<header id="logged-out-mobile-nav" class="mobilenavheader">
+
+			<a href="" class="menuiconwrap svg">
+				<object type="image/svg+xml" data="../icons/menu_icon.svg" class="menuicon">
+					<img src="../icons/menu_icon.png"></object>
+			</a>
+
+		<a class="logo-wrap svg" href="">
+			<object type="image/svg+xml" data="../logo.svg" class="logo">
+				<img src="../logo.png"></object>
+		</a>
+
+		<nav>
+			<div class="searchnavwrap left">
+				<input class="inputbox searchbox left" id="search" name="search" placeholder="Search" type="text">	
+				<!-- <input class="searchbtn left" name="commit" type="submit" value="">	
+				-->
+				<button class="left svg" type="submit">
+					<object type="image/svg+xml" data="../icons/search_icon.svg" class="searchbtn">
+						<img class="searchbtnfix" src="../icons/search_icon.png">
+					</object>
+				</button>
+			</div>
+		</nav>
+			<div class="nav-cta right">
+				<a href="#" class="btn">Join</a>
+				<a href="#" class="btn whitebtn">Sign in</a>
+			</div>
+	</header>
+
+<main id="panel">
+
+
+</main>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script>
+	 $('.toggle-dropdown').click(function() {
+        $('.drop-down-menu').toggle();       
+    }); 
+
+	 </script>
+
+</body>
+</html>
